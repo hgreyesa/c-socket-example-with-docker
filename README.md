@@ -1,5 +1,5 @@
 # c-socket-example-with-docker
-Contains a client type socket and server type sockets writed in c language with the dockerfile required to produce the docker image and te command required to make a test
+Contains a client type socket and server type sockets in c language with the dockerfile required to produce the docker image and te command required to make a test
 
 ## About this repository
 
@@ -60,7 +60,7 @@ Contains a client type socket and server type sockets writed in c language with 
    2. Open a new terminal and run the following command:
 
       ```
-      docker run -rm -ti --name client demo:sockets ./Client 172.17.0.1 52000
+      docker run --rm -ti --name client demo:sockets ./Client 172.17.0.1 52000
       #Writes a message and press enter
       ```
 
